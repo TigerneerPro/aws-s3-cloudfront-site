@@ -1,127 +1,152 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TigerneerPro | Cloud Engineer Portfolio</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-    <style>
-        body {
-            font-family: 'Arial', sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f8f9fa;
-            color: #333;
-        }
-        header {
-            background: linear-gradient(135deg, #0073e6, #005bb5);
-            color: white;
-            text-align: center;
-            padding: 40px 20px;
-        }
-        .container {
-            width: 80%;
-            margin: auto;
-            padding: 40px 0;
-            text-align: center;
-        }
-        .profile-img {
-            width: 140px;
-            border-radius: 50%;
-            margin: 20px 0;
-            border: 4px solid white;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-        }
-        .btn {
-            display: inline-block;
-            padding: 12px 24px;
-            margin: 15px;
-            background-color: #0073e6;
-            color: white;
-            text-decoration: none;
-            border-radius: 5px;
-            font-size: 16px;
-            transition: 0.3s;
-        }
-        .btn:hover {
-            background-color: #005bb5;
-        }
-        .projects {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-            gap: 20px;
-            margin-top: 30px;
-        }
-        .project-card {
-            background: white;
-            padding: 20px;
-            border-radius: 8px;
-            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-            width: 320px;
-            text-align: left;
-            transition: transform 0.3s;
-        }
-        .project-card:hover {
-            transform: translateY(-5px);
-        }
-        .certifications {
-            margin-top: 40px;
-            text-align: center;
-        }
-        .certifications img {
-            width: 150px;
-            margin: 10px;
-        }
-        footer {
-            background-color: #222;
-            color: white;
-            text-align: center;
-            padding: 20px;
-            margin-top: 40px;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TigerneerPro | Cloud Engineer Portfolio</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f8f9fa;
+      color: #333;
+    }
+    header {
+      background: linear-gradient(135deg, #0073e6, #005bb5);
+      color: white;
+      text-align: center;
+      padding: 40px 20px;
+    }
+    .container {
+      width: 80%;
+      margin: auto;
+      padding: 40px 0;
+      text-align: center;
+    }
+    .profile-img {
+      width: 140px;
+      border-radius: 50%;
+      margin: 20px 0;
+      border: 4px solid white;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+    .btn {
+      display: inline-block;
+      padding: 12px 24px;
+      margin: 15px;
+      background-color: #0073e6;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+      font-size: 16px;
+      transition: 0.3s;
+    }
+    .btn:hover {
+      background-color: #005bb5;
+    }
+    .projects {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+      margin-top: 30px;
+    }
+    .project-card {
+      background: white;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      width: 320px;
+      text-align: left;
+      transition: transform 0.3s;
+    }
+    .project-card:hover {
+      transform: translateY(-5px);
+    }
+    .certifications {
+      margin-top: 40px;
+      text-align: center;
+    }
+    .certification-row {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      flex-wrap: wrap;
+      margin-top: 20px;
+    }
+    footer {
+      background-color: #222;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+    }
+  </style>
 </head>
 <body>
-    <header>
-        <h1>TigerneerPro</h1>
-        <p>Aspiring Cloud Engineer | AWS Certified | Open to Opportunities</p>
-    </header>
-    <div class="container">
-        <img src="profile.jpg" alt="Profile Image" class="profile-img">
-        <h2>Welcome to My Cloud Engineering Journey</h2>
-        <p>Building real-world cloud projects and sharing knowledge with the community.</p>
-        <a href="https://github.com/TigerneerPro" class="btn" target="_blank"><i class="fab fa-github"></i> Visit My GitHub</a>
-        <a href="mailto:tigerneerpro@gmail.com" class="btn"><i class="fas fa-envelope"></i> Contact Me</a>
-        
-        <h2>Certifications</h2>
-        <div class="certifications">
-           <img src="AWS-CCP.png" alt="AWS Certified Cloud Practitioner" width="150">
-           <img src="AWS-SAA.png" alt="AWS Certified Solutions Architect – Associate" width="150">
-        </div>
+  <header>
+    <h1>TigerneerPro</h1>
+    <p>Aspiring Cloud Engineer | AWS Certified | Open to Opportunities</p>
+  </header>
 
-        
-        <h2>Featured Projects</h2>
-        <div class="projects">
-            <div class="project-card">
-                <h3>AWS Lambda Serverless App</h3>
-                <p>Serverless API using AWS Lambda, API Gateway, and DynamoDB.</p>
-                <a href="https://github.com/TigerneerPro/aws-lambda-project" target="_blank">View on GitHub</a>
-            </div>
-            <div class="project-card">
-                <h3>Dockerized Web App</h3>
-                <p>Containerized application using Docker and deployed on AWS ECS.</p>
-                <a href="https://github.com/TigerneerPro/docker-web-app" target="_blank">View on GitHub</a>
-            </div>
-            <div class="project-card">
-                <h3>Kubernetes Deployment</h3>
-                <p>Orchestrating containerized applications with Kubernetes.</p>
-                <a href="https://github.com/TigerneerPro/k8s-deployment" target="_blank">View on GitHub</a>
-            </div>
-        </div>
+  <div class="container">
+    <img src="profile.jpg" alt="Profile Image" class="profile-img">
+    <h2>Welcome to My Cloud Engineering Journey</h2>
+    <p>Building real-world cloud projects and sharing knowledge with the community.</p>
+    <a href="https://github.com/TigerneerPro" class="btn" target="_blank"><i class="fab fa-github"></i> Visit My GitHub</a>
+    <a href="mailto:tigerneerpro@gmail.com" class="btn"><i class="fas fa-envelope"></i> Contact Me</a>
+
+    <h2>Certifications</h2>
+    <div class="certifications">
+      <div class="certification-row">
+        <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="df7f741d-68b8-462b-87f0-906b4c552472" data-share-badge-host="https://www.credly.com"></div>
+        <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="a2a8a084-0582-4b11-8903-c7afceaa8ca5" data-share-badge-host="https://www.credly.com"></div>
+        <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="e788404c-82c7-4d3f-bfdd-d99ca1fa31f8" data-share-badge-host="https://www.credly.com"></div>
+      </div>
     </div>
-    <footer>
-        <p>&copy; 2025 TigerneerPro. All Rights Reserved.</p>
-    </footer>
+
+    <h2>Featured Projects</h2>
+    <div class="projects">
+      <div class="project-card">
+        <h3>AWS Lambda Serverless App</h3>
+        <p>Serverless API using AWS Lambda, API Gateway, and DynamoDB.</p>
+        <a href="https://github.com/TigerneerPro/aws-lambda-project" target="_blank">View on GitHub</a>
+      </div>
+      <div class="project-card">
+        <h3>Dockerized Web App</h3>
+        <p>Containerized application using Docker and deployed on AWS ECS.</p>
+        <a href="https://github.com/TigerneerPro/docker-web-app" target="_blank">View on GitHub</a>
+      </div>
+      <div class="project-card">
+        <h3>Kubernetes Deployment</h3>
+        <p>Orchestrating containerized applications with Kubernetes.</p>
+        <a href="https://github.com/TigerneerPro/k8s-deployment" target="_blank">View on GitHub</a>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 TigerneerPro. All Rights Reserved.</p>
+    <p style="font-size: 14px; color: #aaa;">
+      <i class="fas fa-chart-line"></i> Total Visits:
+      <span id="visitCount">Loading...</span>
+    </p>
+  </footer>
+
+  <script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
+  <script>
+    const apiUrl = "https://tpxq5sk2z1.execute-api.us-east-1.amazonaws.com/prod/updateVisitorCount";
+    fetch(apiUrl)
+      .then(response => response.json())
+      .then(data => {
+        document.getElementById("visitCount").innerText = data;
+      })
+      .catch(error => {
+        console.error("Failed to fetch visitor count:", error);
+        document.getElementById("visitCount").innerText = "Error";
+      });
+  </script>
 </body>
 </html>
