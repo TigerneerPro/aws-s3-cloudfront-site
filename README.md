@@ -12,7 +12,7 @@ This is a static website hosted on **Amazon S3** and accelerated with **CloudFro
 🚀 This is a static website hosted on **Amazon S3** and accelerated with **CloudFront**.
 
 ## 🌐 Live Demo
-👉 [Click here to view the live website](https://your-cloudfront-url)
+👉 [Click here to view the live website](https://www.tigerneer.com)
 
 ## 📁 Project Structure
 
