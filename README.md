@@ -1,5 +1,14 @@
 # AWS S3 + CloudFront Static Website
 
+[![AWS](https://img.shields.io/badge/AWS-S3%20%2B%20CloudFront-orange)](https://aws.amazon.com)
+[![License](https://img.shields.io/badge/license-MIT-green)](./LICENSE)
+[![Status](https://img.shields.io/badge/Deployment-Live-blue)](#live-demo)
+
+This is a static website hosted on **Amazon S3** and accelerated with **CloudFront**.
+
+
+# AWS S3 + CloudFront Static Website
+
 🚀 This is a static website hosted on **Amazon S3** and accelerated with **CloudFront**.
 
 ## 🌐 Live Demo
